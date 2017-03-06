@@ -1,0 +1,7 @@
+npm init
+
+npm i react@15 react-dom@15 -D
+
+npm i webpack@1 -D
+
+npm i babel-core@6 babel-loader@6 babel-preset-react@6 -D

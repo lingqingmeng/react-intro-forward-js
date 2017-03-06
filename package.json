@@ -1,0 +1,24 @@
+{
+  "name": "forward-react-intro",
+  "version": "1.0.0",
+  "description": "forward js conference tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "build-watch": "./node_modules/.bin/webpack -w"
+  },
+  "author": "Ling Qing Meng <ling.q.meng@gmail.com> (http://lingqingmeng.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-react": "^6.23.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^1.14.0"
+  },
+  "babel": {
+    "presets": ["react"]
+  }
+}
